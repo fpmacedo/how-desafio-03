@@ -1,0 +1,11 @@
+[2023-10-18T20:07:31.005-0300] {processor.py:157} INFO - Started process (PID=1823) to work on /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-10-18T20:07:31.006-0300] {processor.py:829} INFO - Processing file /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2023-10-18T20:07:31.007-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:31.006-0300] {dagbag.py:536} INFO - Filling up the DagBag from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-10-18T20:07:31.016-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-10-18T20:07:31.150-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:31.150-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:31.187-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:31.187-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:31.222-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:31.222-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:31.223-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:31.223-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-18T20:07:31.239-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:31.239-0300] {dag.py:2963} INFO - Creating ORM DAG for example_passing_params_via_test_command
+[2023-10-18T20:07:31.252-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:31.252-0300] {dag.py:3722} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2023-10-18T23:06:00+00:00, run_after=2023-10-18T23:07:00+00:00
+[2023-10-18T20:07:31.315-0300] {processor.py:179} INFO - Processing /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.312 seconds

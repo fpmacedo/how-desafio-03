@@ -1,0 +1,84 @@
+[2023-10-17T23:33:44.016+0000] {processor.py:157} INFO - Started process (PID=35) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:33:44.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-10-17T23:33:44.024+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:33:44.022+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:33:44.078+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:33:44.069+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 8, in <module>
+    from airflow.providers.amazon import LambdaInvokeFunctionOperator
+ImportError: cannot import name 'LambdaInvokeFunctionOperator' from 'airflow.providers.amazon' (/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/__init__.py)
+[2023-10-17T23:33:44.082+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:33:44.102+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.090 seconds
+[2023-10-17T23:34:14.226+0000] {processor.py:157} INFO - Started process (PID=90) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:34:14.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-10-17T23:34:14.231+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:34:14.231+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:34:14.263+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:34:14.257+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 8, in <module>
+    from airflow.providers.amazon import LambdaInvokeFunctionOperator
+ImportError: cannot import name 'LambdaInvokeFunctionOperator' from 'airflow.providers.amazon' (/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/__init__.py)
+[2023-10-17T23:34:14.265+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:34:14.287+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.064 seconds
+[2023-10-17T23:34:44.879+0000] {processor.py:157} INFO - Started process (PID=145) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:34:44.880+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-10-17T23:34:44.883+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:34:44.883+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:34:44.911+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:34:44.902+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 8, in <module>
+    from airflow.providers.amazon import LambdaInvokeFunctionOperator
+ImportError: cannot import name 'LambdaInvokeFunctionOperator' from 'airflow.providers.amazon' (/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/__init__.py)
+[2023-10-17T23:34:44.913+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:34:44.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.055 seconds
+[2023-10-17T23:35:15.019+0000] {processor.py:157} INFO - Started process (PID=200) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:35:15.021+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-10-17T23:35:15.025+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:35:15.025+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:35:15.057+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:35:15.051+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 8, in <module>
+    from airflow.providers.amazon import LambdaInvokeFunctionOperator
+ImportError: cannot import name 'LambdaInvokeFunctionOperator' from 'airflow.providers.amazon' (/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/__init__.py)
+[2023-10-17T23:35:15.060+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:35:15.085+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.069 seconds
+[2023-10-17T23:35:45.301+0000] {processor.py:157} INFO - Started process (PID=255) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:35:45.303+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-10-17T23:35:45.305+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:35:45.305+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:35:45.333+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:35:45.328+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 8, in <module>
+    from airflow.providers.amazon import LambdaInvokeFunctionOperator
+ImportError: cannot import name 'LambdaInvokeFunctionOperator' from 'airflow.providers.amazon' (/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/__init__.py)
+[2023-10-17T23:35:45.335+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:35:45.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.058 seconds
+[2023-10-17T23:36:15.521+0000] {processor.py:157} INFO - Started process (PID=310) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:36:15.523+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-10-17T23:36:15.530+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:36:15.530+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:36:15.598+0000] {logging_mixin.py:151} INFO - [2023-10-17T23:36:15.581+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 8, in <module>
+    from airflow.providers.amazon import LambdaInvokeFunctionOperator
+ImportError: cannot import name 'LambdaInvokeFunctionOperator' from 'airflow.providers.amazon' (/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/__init__.py)
+[2023-10-17T23:36:15.602+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-10-17T23:36:15.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.163 seconds

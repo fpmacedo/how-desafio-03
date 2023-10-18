@@ -1,0 +1,11 @@
+[2023-10-18T20:06:57.840-0300] {processor.py:157} INFO - Started process (PID=1797) to work on /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-10-18T20:06:57.841-0300] {processor.py:829} INFO - Processing file /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2023-10-18T20:06:57.842-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:06:57.842-0300] {dagbag.py:536} INFO - Filling up the DagBag from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-10-18T20:06:57.848-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-10-18T20:06:58.089-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:06:58.089-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:06:58.163-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:06:58.161-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:06:58.241-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:06:58.241-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:06:58.242-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:06:58.242-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-18T20:06:58.259-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:06:58.259-0300] {dag.py:2963} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2023-10-18T20:06:58.260-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:06:58.260-0300] {dag.py:3722} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2023-10-18T20:06:58.381-0300] {processor.py:179} INFO - Processing /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.543 seconds

@@ -1,0 +1,11 @@
+[2023-10-18T20:07:38.149-0300] {processor.py:157} INFO - Started process (PID=1828) to work on /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-18T20:07:38.151-0300] {processor.py:829} INFO - Processing file /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-10-18T20:07:38.152-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:38.151-0300] {dagbag.py:536} INFO - Filling up the DagBag from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-18T20:07:38.157-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-18T20:07:38.296-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:38.295-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:38.340-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:38.339-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:38.381-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:38.380-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:38.381-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:38.381-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-18T20:07:38.400-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:38.399-0300] {dag.py:2963} INFO - Creating ORM DAG for example_sla_dag
+[2023-10-18T20:07:38.415-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:38.415-0300] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-10-18T23:04:00+00:00, run_after=2023-10-18T23:06:00+00:00
+[2023-10-18T20:07:38.493-0300] {processor.py:179} INFO - Processing /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_sla_dag.py took 0.345 seconds

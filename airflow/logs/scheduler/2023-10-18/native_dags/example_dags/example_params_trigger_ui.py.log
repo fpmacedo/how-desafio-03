@@ -1,0 +1,11 @@
+[2023-10-18T20:07:43.527-0300] {processor.py:157} INFO - Started process (PID=1833) to work on /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-10-18T20:07:43.528-0300] {processor.py:829} INFO - Processing file /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2023-10-18T20:07:43.530-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:43.529-0300] {dagbag.py:536} INFO - Filling up the DagBag from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-10-18T20:07:43.546-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-10-18T20:07:43.800-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:43.800-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:43.844-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:43.844-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:43.883-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:43.883-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:43.884-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:43.884-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-18T20:07:43.900-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:43.900-0300] {dag.py:2963} INFO - Creating ORM DAG for example_params_trigger_ui
+[2023-10-18T20:07:43.900-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:43.900-0300] {dag.py:3722} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2023-10-18T20:07:43.977-0300] {processor.py:179} INFO - Processing /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_params_trigger_ui.py took 0.454 seconds

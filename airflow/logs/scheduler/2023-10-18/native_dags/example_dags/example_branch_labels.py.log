@@ -1,0 +1,11 @@
+[2023-10-18T20:07:19.688-0300] {processor.py:157} INFO - Started process (PID=1815) to work on /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_branch_labels.py
+[2023-10-18T20:07:19.689-0300] {processor.py:829} INFO - Processing file /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-10-18T20:07:19.690-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:19.690-0300] {dagbag.py:536} INFO - Filling up the DagBag from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_branch_labels.py
+[2023-10-18T20:07:19.700-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_branch_labels.py
+[2023-10-18T20:07:19.820-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:19.820-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:19.852-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:19.852-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:19.888-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:19.888-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T20:07:19.889-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:19.889-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-18T20:07:19.903-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:19.903-0300] {dag.py:2963} INFO - Creating ORM DAG for example_branch_labels
+[2023-10-18T20:07:19.916-0300] {logging_mixin.py:151} INFO - [2023-10-18T20:07:19.915-0300] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2023-10-17T00:00:00+00:00, run_after=2023-10-18T00:00:00+00:00
+[2023-10-18T20:07:19.989-0300] {processor.py:179} INFO - Processing /usr/local/lib/python3.10/dist-packages/airflow/example_dags/example_branch_labels.py took 0.303 seconds
