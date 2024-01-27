@@ -1,0 +1,41 @@
+[2024-01-27T14:18:01.134-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=scheduled__2024-01-27T17:00:00+00:00/task_id=wait_for_step permission to 509
+[2024-01-27T14:18:01.192-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=scheduled__2024-01-27T17:00:00+00:00/task_id=wait_for_step permission to 509
+[2024-01-27T14:18:01.217-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: how-desafio-3.wait_for_step scheduled__2024-01-27T17:00:00+00:00 [queued]>
+[2024-01-27T14:18:01.235-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: how-desafio-3.wait_for_step scheduled__2024-01-27T17:00:00+00:00 [queued]>
+[2024-01-27T14:18:01.236-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-01-27T14:18:01.265-0300] {taskinstance.py:1382} INFO - Executing <Task(EmrStepSensor): wait_for_step> on 2024-01-27 17:00:00+00:00
+[2024-01-27T14:18:01.267-0300] {standard_task_runner.py:57} INFO - Started process 336 to run task
+[2024-01-27T14:18:01.269-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'how-desafio-3', 'wait_for_step', 'scheduled__2024-01-27T17:00:00+00:00', '--job-id', '297', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmphpj6s_gh']
+[2024-01-27T14:18:01.270-0300] {standard_task_runner.py:85} INFO - Job 297: Subtask wait_for_step
+[2024-01-27T14:18:01.355-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=scheduled__2024-01-27T17:00:00+00:00/task_id=wait_for_step permission to 509
+[2024-01-27T14:18:01.358-0300] {task_command.py:416} INFO - Running <TaskInstance: how-desafio-3.wait_for_step scheduled__2024-01-27T17:00:00+00:00 [running]> on host 14111-NB.
+[2024-01-27T14:18:01.498-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='how-desafio-3' AIRFLOW_CTX_TASK_ID='wait_for_step' AIRFLOW_CTX_EXECUTION_DATE='2024-01-27T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-27T17:00:00+00:00'
+[2024-01-27T14:18:01.513-0300] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2024-01-27T14:18:01.514-0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2024-01-27T14:18:01.716-0300] {emr.py:575} INFO - Poking step s-06977262ZYXIYC2OBNU0 on cluster j-1PSXB8O6Z3UNZ
+[2024-01-27T14:18:02.746-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-27T14:19:02.807-0300] {emr.py:575} INFO - Poking step s-06977262ZYXIYC2OBNU0 on cluster j-1PSXB8O6Z3UNZ
+[2024-01-27T14:19:03.949-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-27T14:20:04.009-0300] {emr.py:575} INFO - Poking step s-06977262ZYXIYC2OBNU0 on cluster j-1PSXB8O6Z3UNZ
+[2024-01-27T14:20:05.191-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-27T14:21:05.252-0300] {emr.py:575} INFO - Poking step s-06977262ZYXIYC2OBNU0 on cluster j-1PSXB8O6Z3UNZ
+[2024-01-27T14:21:06.410-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-27T14:22:06.471-0300] {emr.py:575} INFO - Poking step s-06977262ZYXIYC2OBNU0 on cluster j-1PSXB8O6Z3UNZ
+[2024-01-27T14:22:07.587-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-27T14:23:07.605-0300] {emr.py:575} INFO - Poking step s-06977262ZYXIYC2OBNU0 on cluster j-1PSXB8O6Z3UNZ
+[2024-01-27T14:23:08.716-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-27T14:23:33.056-0300] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 336. PIDs of all processes in the group: [336]
+[2024-01-27T14:23:33.058-0300] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 336
+[2024-01-27T14:23:33.059-0300] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-01-27T14:23:33.086-0300] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/amazon/aws/sensors/emr.py", line 624, in execute
+    super().execute(context=context)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-01-27T14:23:33.094-0300] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=how-desafio-3, task_id=wait_for_step, execution_date=20240127T170000, start_date=20240127T171801, end_date=20240127T172333
+[2024-01-27T14:23:33.151-0300] {standard_task_runner.py:104} ERROR - Failed to execute job 297 for task wait_for_step (Task received SIGTERM signal; 336)
+[2024-01-27T14:23:33.193-0300] {process_utils.py:79} INFO - Process psutil.Process(pid=336, status='terminated', exitcode=1, started='14:18:00') (336) terminated with exit code 1

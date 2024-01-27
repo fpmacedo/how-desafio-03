@@ -1,0 +1,31 @@
+[2024-01-26T16:12:04.608-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-03/run_id=scheduled__2024-01-26T18:45:00+00:00/task_id=create_emr_cluster permission to 509
+[2024-01-26T16:12:04.653-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-03/run_id=scheduled__2024-01-26T18:45:00+00:00/task_id=create_emr_cluster permission to 509
+[2024-01-26T16:12:04.670-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: how-desafio-03.create_emr_cluster scheduled__2024-01-26T18:45:00+00:00 [queued]>
+[2024-01-26T16:12:04.680-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: how-desafio-03.create_emr_cluster scheduled__2024-01-26T18:45:00+00:00 [queued]>
+[2024-01-26T16:12:04.680-0300] {taskinstance.py:1361} INFO - Starting attempt 5 of 6
+[2024-01-26T16:12:04.730-0300] {taskinstance.py:1382} INFO - Executing <Task(EmrCreateJobFlowOperator): create_emr_cluster> on 2024-01-26 18:45:00+00:00
+[2024-01-26T16:12:04.731-0300] {standard_task_runner.py:57} INFO - Started process 852 to run task
+[2024-01-26T16:12:04.733-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'how-desafio-03', 'create_emr_cluster', 'scheduled__2024-01-26T18:45:00+00:00', '--job-id', '256', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmpxit5_irc']
+[2024-01-26T16:12:04.735-0300] {standard_task_runner.py:85} INFO - Job 256: Subtask create_emr_cluster
+[2024-01-26T16:12:04.790-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-03/run_id=scheduled__2024-01-26T18:45:00+00:00/task_id=create_emr_cluster permission to 509
+[2024-01-26T16:12:04.792-0300] {task_command.py:416} INFO - Running <TaskInstance: how-desafio-03.create_emr_cluster scheduled__2024-01-26T18:45:00+00:00 [running]> on host 14111-NB.
+[2024-01-26T16:12:04.872-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Filipe' AIRFLOW_CTX_DAG_ID='how-desafio-03' AIRFLOW_CTX_TASK_ID='create_emr_cluster' AIRFLOW_CTX_EXECUTION_DATE='2024-01-26T18:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-26T18:45:00+00:00'
+[2024-01-26T16:12:04.873-0300] {emr.py:742} INFO - Creating job flow using aws_conn_id: aws_default, emr_conn_id: emr_default
+[2024-01-26T16:12:04.881-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/providers/amazon/aws/operators/emr.py:750 UserWarning: Unable to find Amazon Elastic MapReduce Connection ID 'emr_default', using an empty initial configuration. If you want to get rid of this warning message please provide a valid `emr_conn_id` or set it to None.
+[2024-01-26T16:12:04.888-0300] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2024-01-26T16:12:04.889-0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2024-01-26T16:12:05.873-0300] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/amazon/aws/operators/emr.py", line 750, in execute
+    response = self._emr_hook.create_job_flow(job_flow_overrides)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/amazon/aws/hooks/emr.py", line 134, in create_job_flow
+    response = self.get_conn().run_job_flow(**config)
+  File "/home/fcmacedo/.local/lib/python3.10/site-packages/botocore/client.py", line 535, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/fcmacedo/.local/lib/python3.10/site-packages/botocore/client.py", line 980, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (AccessDeniedException) when calling the RunJobFlow operation: User: arn:aws:iam::286277260287:user/filipe is not authorized to perform: elasticmapreduce:RunJobFlow on resource: arn:aws:elasticmapreduce:us-east-1:286277260287:cluster/* because no identity-based policy allows the elasticmapreduce:RunJobFlow action
+[2024-01-26T16:12:05.890-0300] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=how-desafio-03, task_id=create_emr_cluster, execution_date=20240126T184500, start_date=20240126T191204, end_date=20240126T191205
+[2024-01-26T16:12:05.950-0300] {standard_task_runner.py:104} ERROR - Failed to execute job 256 for task create_emr_cluster (An error occurred (AccessDeniedException) when calling the RunJobFlow operation: User: arn:aws:iam::286277260287:user/filipe is not authorized to perform: elasticmapreduce:RunJobFlow on resource: arn:aws:elasticmapreduce:us-east-1:286277260287:cluster/* because no identity-based policy allows the elasticmapreduce:RunJobFlow action; 852)
+[2024-01-26T16:12:05.993-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-01-26T16:12:06.028-0300] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

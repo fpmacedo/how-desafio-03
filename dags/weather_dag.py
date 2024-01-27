@@ -24,7 +24,7 @@ default_args = {
 
 dag = DAG('how-desafio-03',
           default_args=default_args,
-          description='Extract, Load and transform data from OpenWeatherA PI',
+          description='Extract, Load and transform data from OpenWeather API',
           start_date=days_ago(1),
           schedule="10 * * * *"
         )
@@ -33,7 +33,7 @@ start_operator = DummyOperator(task_id='Begin_execution',  dag=dag)
 
 invoke_lambda_function = LambdaInvokeFunctionOperator(
     task_id="invoke_lambda_function",
-    function_name='my_first_test'
+    function_name='how-desafio-03'
 )
 
 

@@ -1,0 +1,85 @@
+[2023-11-07T08:56:22.502-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-03/run_id=scheduled__2023-11-07T01:10:00+00:00/task_id=invoke_lambda_function permission to 509
+[2023-11-07T08:56:22.598-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-03/run_id=scheduled__2023-11-07T01:10:00+00:00/task_id=invoke_lambda_function permission to 509
+[2023-11-07T08:56:22.625-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: how-desafio-03.invoke_lambda_function scheduled__2023-11-07T01:10:00+00:00 [queued]>
+[2023-11-07T08:56:22.657-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: how-desafio-03.invoke_lambda_function scheduled__2023-11-07T01:10:00+00:00 [queued]>
+[2023-11-07T08:56:22.658-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-07T08:56:22.711-0300] {taskinstance.py:1382} INFO - Executing <Task(LambdaInvokeFunctionOperator): invoke_lambda_function> on 2023-11-07 01:10:00+00:00
+[2023-11-07T08:56:22.716-0300] {standard_task_runner.py:57} INFO - Started process 996 to run task
+[2023-11-07T08:56:22.723-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'how-desafio-03', 'invoke_lambda_function', 'scheduled__2023-11-07T01:10:00+00:00', '--job-id', '87', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmpw2yrcw2u']
+[2023-11-07T08:56:22.726-0300] {standard_task_runner.py:85} INFO - Job 87: Subtask invoke_lambda_function
+[2023-11-07T08:56:22.893-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-03/run_id=scheduled__2023-11-07T01:10:00+00:00/task_id=invoke_lambda_function permission to 509
+[2023-11-07T08:56:22.896-0300] {task_command.py:416} INFO - Running <TaskInstance: how-desafio-03.invoke_lambda_function scheduled__2023-11-07T01:10:00+00:00 [running]> on host 14111-NB.
+[2023-11-07T08:56:23.084-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='how-desafio-03' AIRFLOW_CTX_TASK_ID='invoke_lambda_function' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T01:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-07T01:10:00+00:00'
+[2023-11-07T08:56:23.085-0300] {lambda_function.py:211} INFO - Invoking AWS Lambda function: my_first_test with payload: {"weather_daily": {"date": "2023-11-06"}}
+[2023-11-07T08:56:23.101-0300] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2023-11-07T08:56:23.102-0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2023-11-07T08:56:27.145-0300] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 996. PIDs of all processes in the group: [996]
+[2023-11-07T08:56:27.146-0300] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 996
+[2023-11-07T08:56:27.147-0300] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-11-07T08:56:27.148-0300] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/botocore/httpsession.py", line 465, in send
+    urllib_response = conn.urlopen(
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/amazon/aws/operators/lambda_function.py", line 212, in execute
+    response = self.hook.invoke_lambda(
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/amazon/aws/hooks/lambda_function.py", line 79, in invoke_lambda
+    return self.conn.invoke(**trim_none_values(invoke_args))
+  File "/usr/local/lib/python3.10/dist-packages/botocore/client.py", line 535, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/botocore/client.py", line 963, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/usr/local/lib/python3.10/dist-packages/botocore/client.py", line 986, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/usr/local/lib/python3.10/dist-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/usr/local/lib/python3.10/dist-packages/botocore/endpoint.py", line 202, in _send_request
+    while self._needs_retry(
+  File "/usr/local/lib/python3.10/dist-packages/botocore/endpoint.py", line 354, in _needs_retry
+    responses = self._event_emitter.emit(
+  File "/usr/local/lib/python3.10/dist-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/botocore/retryhandler.py", line 207, in __call__
+    if self._checker(**checker_kwargs):
+  File "/usr/local/lib/python3.10/dist-packages/botocore/retryhandler.py", line 284, in __call__
+    should_retry = self._should_retry(
+  File "/usr/local/lib/python3.10/dist-packages/botocore/retryhandler.py", line 307, in _should_retry
+    return self._checker(
+  File "/usr/local/lib/python3.10/dist-packages/botocore/retryhandler.py", line 363, in __call__
+    checker_response = checker(
+  File "/usr/local/lib/python3.10/dist-packages/botocore/retryhandler.py", line 247, in __call__
+    return self._check_caught_exception(
+  File "/usr/local/lib/python3.10/dist-packages/botocore/retryhandler.py", line 416, in _check_caught_exception
+    raise caught_exception
+  File "/usr/local/lib/python3.10/dist-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+  File "/usr/local/lib/python3.10/dist-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+  File "/usr/local/lib/python3.10/dist-packages/botocore/httpsession.py", line 510, in send
+    raise HTTPClientError(error=e)
+botocore.exceptions.HTTPClientError: An HTTP Client raised an unhandled exception: Task received SIGTERM signal
+[2023-11-07T08:56:27.177-0300] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=how-desafio-03, task_id=invoke_lambda_function, execution_date=20231107T011000, start_date=20231107T115622, end_date=20231107T115627
+[2023-11-07T08:56:27.254-0300] {standard_task_runner.py:104} ERROR - Failed to execute job 87 for task invoke_lambda_function (An HTTP Client raised an unhandled exception: Task received SIGTERM signal; 996)
+[2023-11-07T08:56:27.279-0300] {process_utils.py:79} INFO - Process psutil.Process(pid=996, status='terminated', exitcode=1, started='08:56:22') (996) terminated with exit code 1
