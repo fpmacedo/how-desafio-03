@@ -30383,3 +30383,1032 @@ File Path                                                                       
 /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-27T17:17:48
 ================================================================================
 [2024-01-27T14:23:34.062-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-27T14:27:19.857-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-27T14:27:19.858-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-27T14:27:19.860-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-01-27T14:27:19.861-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-27T14:27:19.900-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-27T14:27:20.342-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-27T17:27:20
+================================================================================
+[2024-01-27T14:27:51.575-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-27T17:27:51
+================================================================================
+[2024-01-27T14:28:22.694-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-27T17:28:22
+================================================================================
+[2024-01-27T14:28:53.429-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-27T17:28:53
+================================================================================
+[2024-01-27T14:29:24.144-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-27T17:29:24
+================================================================================
+[2024-01-27T14:29:55.252-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-27T17:29:55
+================================================================================
+[2024-01-27T14:30:26.280-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.40s           2024-01-27T17:30:26
+================================================================================
+[2024-01-27T14:30:56.784-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-27T17:30:56
+================================================================================
+[2024-01-27T14:31:27.526-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.21s           2024-01-27T17:31:27
+================================================================================
+[2024-01-27T14:31:58.285-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-27T17:31:58
+================================================================================
+[2024-01-27T14:32:19.876-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-27T14:32:19.911-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:24:56.910-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-30T20:24:56.912-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-30T20:24:56.914-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-01-30T20:24:56.915-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:24:56.983-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:24:57.558-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-30T23:24:57
+================================================================================
+[2024-01-30T20:25:28.532-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-30T23:25:28
+================================================================================
+[2024-01-30T20:25:59.764-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-30T23:25:59
+================================================================================
+[2024-01-30T20:26:14.117-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-30T20:35:27.085-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-30T20:35:27.087-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-30T20:35:27.089-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-01-30T20:35:27.092-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:35:27.169-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:35:27.919-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-30T23:35:27
+================================================================================
+[2024-01-30T20:35:59.681-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.61s           2024-01-30T23:35:59
+================================================================================
+[2024-01-30T20:36:18.011-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-30T20:36:18.245-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-30T20:36:18.247-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-30T20:36:18.249-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-01-30T20:36:18.252-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:36:18.360-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:36:19.229-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.40s           2024-01-30T23:36:19
+================================================================================
+[2024-01-30T20:44:39.540-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-30T20:44:39.719-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-30T20:44:39.720-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-30T20:44:39.722-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-01-30T20:44:39.723-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:44:39.792-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:44:40.567-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.40s           2024-01-30T23:44:40
+================================================================================
+[2024-01-30T20:45:14.245-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-30T23:45:14
+================================================================================
+[2024-01-30T20:53:28.678-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-30T20:53:28.835-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-30T20:53:28.837-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-30T20:53:28.838-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-01-30T20:53:28.840-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:53:28.894-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:53:29.405-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-30T23:53:29
+================================================================================
+[2024-01-30T20:54:00.258-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-30T23:54:00
+================================================================================
+[2024-01-30T20:54:31.031-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-30T23:54:31
+================================================================================
+[2024-01-30T20:55:01.574-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-30T23:55:01
+================================================================================
+[2024-01-30T20:55:31.882-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-30T23:55:31
+================================================================================
+[2024-01-30T20:56:02.250-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-30T23:56:02
+================================================================================
+[2024-01-30T20:56:32.810-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-30T23:56:32
+================================================================================
+[2024-01-30T20:57:03.314-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-30T23:57:03
+================================================================================
+[2024-01-30T20:57:34.441-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-30T23:57:34
+================================================================================
+[2024-01-30T20:58:05.371-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.20s           2024-01-30T23:57:47
+================================================================================
+[2024-01-30T20:58:28.966-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:58:29.011-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T20:58:35.638-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.20s           2024-01-30T23:58:18
+================================================================================
+[2024-01-30T20:59:05.679-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.21s           2024-01-30T23:58:48
+================================================================================
+[2024-01-30T20:59:35.907-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.20s           2024-01-30T23:59:18
+================================================================================
+[2024-01-30T21:00:06.369-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.21s           2024-01-30T23:59:49
+================================================================================
+[2024-01-30T21:00:36.804-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.10s           2024-01-31T00:00:20
+================================================================================
+[2024-01-30T21:01:07.642-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.20s           2024-01-31T00:00:51
+================================================================================
+[2024-01-30T21:01:38.573-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.21s           2024-01-31T00:01:22
+================================================================================
+[2024-01-30T21:02:09.484-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.10s           2024-01-31T00:01:53
+================================================================================
+[2024-01-30T21:02:40.375-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.10s           2024-01-31T00:02:23
+================================================================================
+[2024-01-30T21:03:11.392-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.20s           2024-01-31T00:02:54
+================================================================================
+[2024-01-30T21:03:29.169-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T21:03:29.241-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T21:03:42.438-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.20s           2024-01-31T00:03:25
+================================================================================
+[2024-01-30T21:04:13.604-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           0           1  0.20s           2024-01-31T00:03:57
+================================================================================
+[2024-01-30T21:04:44.714-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.40s           2024-01-31T00:04:17
+================================================================================
+[2024-01-30T21:05:14.762-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:04:48
+================================================================================
+[2024-01-30T21:12:52.203-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-30T21:12:52.377-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-30T21:12:52.379-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-30T21:12:52.381-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-01-30T21:12:52.383-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T21:12:52.465-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T21:12:53.142-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:12:53
+================================================================================
+[2024-01-30T21:13:23.641-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:13:23
+================================================================================
+[2024-01-30T21:13:54.465-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:13:54
+================================================================================
+[2024-01-30T21:14:24.926-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:14:24
+================================================================================
+[2024-01-30T21:24:07.716-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-30T21:24:07.936-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-30T21:24:07.937-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-30T21:24:07.939-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-01-30T21:24:07.940-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T21:24:07.995-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T21:24:08.426-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:24:08
+================================================================================
+[2024-01-30T21:24:39.394-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:24:39
+================================================================================
+[2024-01-30T21:25:09.967-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:25:09
+================================================================================
+[2024-01-30T21:25:40.652-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-31T00:25:40
+================================================================================
+[2024-01-30T21:26:11.099-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:26:11
+================================================================================
+[2024-01-30T21:26:41.490-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:26:41
+================================================================================
+[2024-01-30T21:27:11.817-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:27:11
+================================================================================
+[2024-01-30T21:27:42.300-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:27:42
+================================================================================
+[2024-01-30T21:28:13.288-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:28:13
+================================================================================
+[2024-01-30T21:28:44.421-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:28:44
+================================================================================
+[2024-01-30T21:29:08.060-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T21:29:08.145-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-01-30T21:29:15.813-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:29:15
+================================================================================
+[2024-01-30T21:29:46.704-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:29:46
+================================================================================
+[2024-01-30T21:30:17.548-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-01-31T00:30:17
+================================================================================
+[2024-01-30T21:30:48.300-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.20s           2024-01-31T00:30:48
+================================================================================
+[2024-01-30T21:31:19.284-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-01-31T00:31:19
+================================================================================
+[2024-01-30T21:31:36.754-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T20:45:44.776-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T20:45:44.777-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T20:45:44.779-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T20:45:44.781-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:45:44.838-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:45:45.414-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-02-06T23:45:45
+================================================================================
+[2024-02-06T20:46:16.513-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-06T23:46:16
+================================================================================
+[2024-02-06T20:46:47.637-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-06T23:46:47
+================================================================================
+[2024-02-06T20:47:18.350-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-06T23:47:18
+================================================================================
+[2024-02-06T20:47:49.009-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-06T23:47:49
+================================================================================
+[2024-02-06T20:48:20.163-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.61s           2024-02-06T23:48:20
+================================================================================
+[2024-02-06T20:48:51.862-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-06T23:48:51
+================================================================================
+[2024-02-06T20:49:23.815-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.61s           2024-02-06T23:49:23
+================================================================================
+[2024-02-06T20:49:50.163-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T20:49:50.467-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T20:49:50.471-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T20:49:50.472-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T20:49:50.474-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:49:50.542-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:49:51.562-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.40s           2024-02-06T23:49:51
+================================================================================
+[2024-02-06T20:49:57.741-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T20:49:57.990-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T20:49:57.992-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T20:49:57.993-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T20:49:57.994-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:49:58.072-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:49:58.961-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-02-06T23:49:58
+================================================================================
+[2024-02-06T20:50:04.223-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T20:50:04.453-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T20:50:04.455-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T20:50:04.456-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T20:50:04.457-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:50:04.525-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:50:05.220-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-02-06T23:50:05
+================================================================================
+[2024-02-06T20:58:21.284-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T20:58:21.536-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T20:58:21.539-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T20:58:21.543-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T20:58:21.546-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:58:21.675-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T20:58:22.922-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.71s           2024-02-06T23:58:22
+================================================================================
+[2024-02-06T20:58:53.689-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-06T23:58:53
+================================================================================
+[2024-02-06T20:59:24.905-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-06T23:59:24
+================================================================================
+[2024-02-06T20:59:55.382-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.40s           2024-02-06T23:59:55
+================================================================================
+[2024-02-06T21:00:14.708-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:00:14.962-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:00:14.964-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:00:14.966-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:00:14.967-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:00:15.029-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:00:16.014-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-07T00:00:16
+================================================================================
+[2024-02-06T21:00:21.523-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:00:21.744-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:00:21.746-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:00:21.747-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:00:21.748-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:00:21.805-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:00:22.647-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:00:22
+================================================================================
+[2024-02-06T21:02:31.251-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:02:31.499-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:02:31.501-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:02:31.503-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:02:31.504-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:02:31.568-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:02:32.430-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-07T00:02:32
+================================================================================
+[2024-02-06T21:03:03.554-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.42s           2024-02-07T00:03:03
+================================================================================
+[2024-02-06T21:03:33.810-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:03:10
+================================================================================
+[2024-02-06T21:04:04.712-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:03:42
+================================================================================
+[2024-02-06T21:04:21.897-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:04:22.258-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:04:22.261-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:04:22.264-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:04:22.266-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:04:22.333-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:04:23.182-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:04:23
+================================================================================
+[2024-02-06T21:04:28.514-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:04:28.767-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:04:28.769-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:04:28.770-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:04:28.771-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:04:28.847-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:04:29.680-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.40s           2024-02-07T00:04:29
+================================================================================
+[2024-02-06T21:04:35.511-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:04:35.806-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:04:35.807-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:04:35.811-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:04:35.813-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:04:35.880-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:04:36.889-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-07T00:04:36
+================================================================================
+[2024-02-06T21:13:55.117-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:13:55.358-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:13:55.360-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:13:55.362-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:13:55.364-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:13:55.430-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:13:56.228-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-02-07T00:13:56
+================================================================================
+[2024-02-06T21:14:26.785-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-02-07T00:14:26
+================================================================================
+[2024-02-06T21:14:57.704-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.30s           2024-02-07T00:14:57
+================================================================================
+[2024-02-06T21:15:28.275-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-02-07T00:15:28
+================================================================================
+[2024-02-06T21:15:59.161-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-07T00:15:59
+================================================================================
+[2024-02-06T21:16:29.777-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:16:29
+================================================================================
+[2024-02-06T21:17:00.835-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:17:00
+================================================================================
+[2024-02-06T21:17:32.390-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:17:32
+================================================================================
+[2024-02-06T21:18:04.325-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.61s           2024-02-07T00:18:04
+================================================================================
+[2024-02-06T21:18:36.151-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.61s           2024-02-07T00:18:36
+================================================================================
+[2024-02-06T21:18:55.515-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:18:55.592-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:19:07.501-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:19:07
+================================================================================
+[2024-02-06T21:19:39.051-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.31s           2024-02-07T00:19:39
+================================================================================
+[2024-02-06T21:20:10.536-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:20:10
+================================================================================
+[2024-02-06T21:20:41.042-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:20:41
+================================================================================
+[2024-02-06T21:21:11.754-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:21:11
+================================================================================
+[2024-02-06T21:21:42.338-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:21:42
+================================================================================
+[2024-02-06T21:22:13.226-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-07T00:21:56
+================================================================================
+[2024-02-06T21:22:28.814-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:22:29.156-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:22:29.159-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:22:29.160-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:22:29.161-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:22:29.250-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:22:30.246-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-07T00:22:30
+================================================================================
+[2024-02-06T21:22:35.789-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:22:36.015-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:22:36.017-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:22:36.018-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:22:36.022-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:22:36.090-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:22:36.853-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:22:36
+================================================================================
+[2024-02-06T21:32:56.584-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:32:56.880-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:32:56.881-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:32:56.883-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:32:56.884-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:32:56.968-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:32:57.751-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:32:57
+================================================================================
+[2024-02-06T21:33:03.271-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:33:03.546-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:33:03.548-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:33:03.549-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:33:03.550-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:33:03.621-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:33:04.322-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.41s           2024-02-07T00:33:04
+================================================================================
+[2024-02-06T21:33:14.528-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:33:14.896-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:33:14.898-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:33:14.899-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:33:14.900-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:33:14.983-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:33:15.926-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-07T00:33:15
+================================================================================
+[2024-02-06T21:33:21.763-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-06T21:33:22.156-0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-02-06T21:33:22.160-0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-06T21:33:22.161-0300] {manager.py:489} INFO - Checking for new files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags every 300 seconds
+[2024-02-06T21:33:22.163-0300] {manager.py:755} INFO - Searching for files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:33:22.253-0300] {manager.py:758} INFO - There are 1 files in /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags
+[2024-02-06T21:33:23.131-0300] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py                           1           0  0.51s           2024-02-07T00:33:23
+================================================================================
+[2024-02-06T21:35:41.129-0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

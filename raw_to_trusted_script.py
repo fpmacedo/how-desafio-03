@@ -40,16 +40,12 @@ def process_weather_data(spark, input_data, output_data):
                   .option("inferSchema", True)
                   .json(weather_file_Path))
     
-    weather_df_select = weather_df.select(col('list')[0].alias('list_0')).select(col('list_0.weather.main')[0].alias('main_weather'), 'list_0.wind',col('list_0.clouds.all').alias('clouds'), 'list_0.dt', )
-    #weather_df.show()
-    
-    #orders_df_partition = orders_df.withColumn('date_partition', date_format(col('order_created_at'), "yyyy-MM-dd"))
+    weather_df_partition = weather_df.withColumn('date_partition', from_unixtime(col("list.dt")[0],"yyyy-MM-dd"))
 
-    #data_quality(orders_df_partition)
+    data_quality(weather_df_partition)
 
-    weather_df_select.write.partitionBy('dt').parquet(os.path.join(output_data, 'weather'), 'overwrite')
+    weather_df_partition.write.partitionBy('date_partition').parquet(os.path.join(output_data, 'weather'), 'overwrite')
 
-    
     print("--- weather.parquet completed ---")
 
 
@@ -67,20 +63,15 @@ def data_quality(input_dataset):
     expectation_suite_name="my_expectation_suite"
                                         )
     
-    order_null = validator.expect_column_values_to_not_be_null(column="order_id")
-    order_unique = validator.expect_column_values_to_be_unique(column="order_id")
+    order_null = validator.expect_column_values_to_not_be_null(column="city")
     date_format = validator.expect_column_values_to_match_strftime_format("date_partition", "%Y-%m-%d")
-    rows_number = validator.expect_table_row_count_to_be_between(200,7000)
+    rows_number = validator.expect_table_row_count_to_be_between(1,7000)
 
     
     if order_null.success == False :
       raise ValueError(f"Data quality check failed {order_null.expectation_config.kwargs['column']} is null.")
     else : logger.info(f"Data quality check success {order_null.expectation_config.kwargs['column']} is not null.")
     
-    if order_unique.success == False :
-      raise ValueError(f"Data quality check failed {order_unique.expectation_config.kwargs['column']} is not unique.")
-    else: logger.info(f"Data quality check success {order_unique.expectation_config.kwargs['column']} is unique.")
-       
     if date_format.success == False :
       raise ValueError(f"Data quality check failed {date_format.expectation_config.kwargs['column']} is not in {date_format.expectation_config.kwargs['strftime_format']} format.")
     else: logger.info(f"Data quality check success {date_format.expectation_config.kwargs['column']} is in {date_format.expectation_config.kwargs['strftime_format']} format.")
@@ -139,16 +130,12 @@ def main():
     
     spark = create_spark_session()
     bucket = "how-desafio-3"
-    #input_data = "s3://how-desafio/raw/"
-    #output_data = "s3://how-desafio/trusted"
-    #input_data = "order-data/*/*.json"
-    #output_data = "trusted/"
     
     files = list_files(bucket)
     recent_file = recent_date_files(files)
     input_data = f"s3://how-desafio-3/raw/{recent_file[0]}/{recent_file[1]}/{recent_file[2]}/*.json"
     print(input_data)
-    output_data = f"s3://how-desafio-3/trusted/{recent_file[0]}/{recent_file[1]}/{recent_file[2]}"
+    output_data = f"s3://how-desafio-3/trusted"
     process_weather_data(spark, input_data, output_data) 
 
 if __name__ == "__main__":

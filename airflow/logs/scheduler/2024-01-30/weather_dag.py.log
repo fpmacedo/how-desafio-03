@@ -1,0 +1,223 @@
+[2024-01-30T20:24:57.291-0300] {processor.py:157} INFO - Started process (PID=1135) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:24:57.295-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:24:57.298-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:24:57.298-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:24:57.353-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:24:57.355-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:24:57.362-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:24:57.389-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:24:57.389-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:24:57.419-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:24:57.419-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:00:00+00:00, run_after=2024-01-30T23:15:00+00:00
+[2024-01-30T20:24:57.503-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.217 seconds
+[2024-01-30T20:25:28.241-0300] {processor.py:157} INFO - Started process (PID=1141) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:25:28.242-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:25:28.245-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:25:28.245-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:25:28.273-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:25:28.274-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:25:28.280-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:25:28.315-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:25:28.315-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:25:28.346-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:25:28.346-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:00:00+00:00, run_after=2024-01-30T23:15:00+00:00
+[2024-01-30T20:25:28.444-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.205 seconds
+[2024-01-30T20:25:59.474-0300] {processor.py:157} INFO - Started process (PID=1144) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:25:59.475-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:25:59.477-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:25:59.477-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:25:59.505-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:25:59.506-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:25:59.511-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:25:59.543-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:25:59.542-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:25:59.572-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:25:59.571-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:15:00+00:00, run_after=2024-01-30T23:30:00+00:00
+[2024-01-30T20:25:59.670-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.198 seconds
+[2024-01-30T20:35:27.634-0300] {processor.py:157} INFO - Started process (PID=120) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:35:27.635-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:35:27.638-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:35:27.638-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:35:27.682-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:35:27.684-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:35:27.693-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:35:27.713-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:35:27.712-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:35:27.752-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:35:27.752-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:15:00+00:00, run_after=2024-01-30T23:30:00+00:00
+[2024-01-30T20:35:27.845-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.215 seconds
+[2024-01-30T20:35:59.163-0300] {processor.py:157} INFO - Started process (PID=126) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:35:59.165-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:35:59.173-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:35:59.172-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:35:59.261-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:35:59.263-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:35:59.281-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:35:59.377-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:35:59.376-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:35:59.469-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:35:59.468-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:15:00+00:00, run_after=2024-01-30T23:30:00+00:00
+[2024-01-30T20:35:59.618-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.466 seconds
+[2024-01-30T20:36:18.851-0300] {processor.py:157} INFO - Started process (PID=132) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:36:18.853-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:36:18.855-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:36:18.855-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:36:18.904-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:36:18.905-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:36:18.911-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:36:18.956-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:36:18.956-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:36:19.084-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:36:19.084-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:30:00+00:00, run_after=2024-01-30T23:45:00+00:00
+[2024-01-30T20:36:19.192-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.343 seconds
+[2024-01-30T20:44:40.185-0300] {processor.py:157} INFO - Started process (PID=138) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:44:40.187-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:44:40.190-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:44:40.190-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:44:40.234-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:44:40.236-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:44:40.241-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:44:40.369-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:44:40.369-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:44:40.393-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:44:40.392-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:30:00+00:00, run_after=2024-01-30T23:45:00+00:00
+[2024-01-30T20:44:40.506-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.323 seconds
+[2024-01-30T20:45:13.952-0300] {processor.py:157} INFO - Started process (PID=145) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:45:13.953-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:45:13.954-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:45:13.954-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:45:13.984-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:45:13.985-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:45:13.989-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:45:14.091-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:45:14.091-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:45:14.115-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:45:14.114-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:45:14.187-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.237 seconds
+[2024-01-30T20:53:29.221-0300] {processor.py:157} INFO - Started process (PID=169) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:53:29.222-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:53:29.224-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:53:29.224-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:53:29.260-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:53:29.261-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:53:29.265-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:53:29.292-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:53:29.292-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:53:29.309-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:53:29.309-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:53:29.381-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.162 seconds
+[2024-01-30T20:53:59.975-0300] {processor.py:157} INFO - Started process (PID=170) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:53:59.976-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:53:59.979-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:53:59.978-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:54:00.022-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:54:00.024-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:54:00.030-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:54:00.065-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:54:00.065-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:54:00.090-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:54:00.090-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:54:00.227-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.254 seconds
+[2024-01-30T20:54:30.841-0300] {processor.py:157} INFO - Started process (PID=171) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:54:30.842-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:54:30.844-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:54:30.844-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:54:30.866-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:54:30.867-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:54:30.871-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:54:30.892-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:54:30.892-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:54:30.909-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:54:30.909-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:54:30.968-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.129 seconds
+[2024-01-30T20:55:01.308-0300] {processor.py:157} INFO - Started process (PID=172) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:55:01.310-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:55:01.312-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:55:01.312-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:55:01.345-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:55:01.346-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:55:01.350-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:55:01.373-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:55:01.373-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:55:01.404-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:55:01.404-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:55:01.515-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.210 seconds
+[2024-01-30T20:55:31.694-0300] {processor.py:157} INFO - Started process (PID=173) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:55:31.695-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:55:31.697-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:55:31.697-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:55:31.721-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:55:31.722-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:55:31.725-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:55:31.747-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:55:31.746-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:55:31.769-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:55:31.769-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:55:31.872-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.181 seconds
+[2024-01-30T20:56:02.059-0300] {processor.py:157} INFO - Started process (PID=174) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:56:02.060-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:56:02.062-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:56:02.062-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:56:02.085-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:56:02.086-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:56:02.089-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:56:02.111-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:56:02.111-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:56:02.128-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:56:02.128-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:56:02.184-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.127 seconds
+[2024-01-30T20:56:32.526-0300] {processor.py:157} INFO - Started process (PID=175) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:56:32.527-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:56:32.530-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:56:32.530-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:56:32.558-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:56:32.560-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:56:32.567-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:56:32.598-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:56:32.598-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:56:32.626-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:56:32.626-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:56:32.713-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.189 seconds
+[2024-01-30T20:57:03.034-0300] {processor.py:157} INFO - Started process (PID=176) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:03.035-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:57:03.037-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:57:03.037-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:03.076-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:57:03.077-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:57:03.081-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:03.120-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:57:03.120-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:57:03.155-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:57:03.154-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:57:03.299-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.267 seconds
+[2024-01-30T20:57:34.161-0300] {processor.py:157} INFO - Started process (PID=177) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:34.162-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:57:34.166-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:57:34.165-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:34.215-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:57:34.217-0300] {logging_mixin.py:151} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2024-01-30T20:57:34.221-0300] {processor.py:839} INFO - DAG(s) dict_keys(['how-desafio-3']) retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:34.259-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:57:34.259-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-30T20:57:34.288-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:57:34.288-0300] {dag.py:3722} INFO - Setting next_dagrun for how-desafio-3 to 2024-01-30T23:45:00+00:00, run_after=2024-01-31T00:00:00+00:00
+[2024-01-30T20:57:34.398-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.240 seconds
+[2024-01-30T20:57:47.471-0300] {processor.py:157} INFO - Started process (PID=178) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:47.473-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:57:47.474-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:57:47.474-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:47.547-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:57:47.537-0300] {dagbag.py:346} ERROR - Failed to import: /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py", line 39, in <module>
+    now = datetime.now() - datetime.timedelta(minutes=60)
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2024-01-30T20:57:47.550-0300] {processor.py:841} WARNING - No viable dags retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:57:47.613-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.143 seconds
+[2024-01-30T20:58:17.856-0300] {processor.py:157} INFO - Started process (PID=179) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:58:17.857-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:58:17.858-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:58:17.858-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:58:17.903-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:58:17.895-0300] {dagbag.py:346} ERROR - Failed to import: /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py", line 39, in <module>
+    now = datetime.now() - datetime.timedelta(minutes=60)
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2024-01-30T20:58:17.906-0300] {processor.py:841} WARNING - No viable dags retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:58:17.960-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.107 seconds
+[2024-01-30T20:58:48.134-0300] {processor.py:157} INFO - Started process (PID=180) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:58:48.135-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:58:48.137-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:58:48.137-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:58:48.181-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:58:48.175-0300] {dagbag.py:346} ERROR - Failed to import: /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py", line 39, in <module>
+    now = datetime.now() - datetime.timedelta(minutes=60)
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2024-01-30T20:58:48.183-0300] {processor.py:841} WARNING - No viable dags retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:58:48.248-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.116 seconds
+[2024-01-30T20:59:18.404-0300] {processor.py:157} INFO - Started process (PID=181) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:59:18.405-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:59:18.407-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:59:18.406-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:59:18.454-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:59:18.444-0300] {dagbag.py:346} ERROR - Failed to import: /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py", line 39, in <module>
+    now = datetime.now() - datetime.timedelta(minutes=60)
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2024-01-30T20:59:18.458-0300] {processor.py:841} WARNING - No viable dags retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:59:18.518-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.117 seconds
+[2024-01-30T20:59:49.221-0300] {processor.py:157} INFO - Started process (PID=182) to work on /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:59:49.222-0300] {processor.py:829} INFO - Processing file /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py for tasks to queue
+[2024-01-30T20:59:49.223-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:59:49.223-0300] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:59:49.268-0300] {logging_mixin.py:151} INFO - [2024-01-30T20:59:49.260-0300] {dagbag.py:346} ERROR - Failed to import: /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py", line 39, in <module>
+    now = datetime.now() - datetime.timedelta(minutes=60)
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2024-01-30T20:59:49.271-0300] {processor.py:841} WARNING - No viable dags retrieved from /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py
+[2024-01-30T20:59:49.318-0300] {processor.py:179} INFO - Processing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/dags/weather_dag.py took 0.100 seconds

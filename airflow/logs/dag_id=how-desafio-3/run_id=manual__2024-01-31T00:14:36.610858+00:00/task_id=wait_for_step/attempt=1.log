@@ -1,0 +1,38 @@
+[2024-01-30T21:14:53.133-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=manual__2024-01-31T00:14:36.610858+00:00/task_id=wait_for_step permission to 509
+[2024-01-30T21:14:53.215-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=manual__2024-01-31T00:14:36.610858+00:00/task_id=wait_for_step permission to 509
+[2024-01-30T21:14:53.249-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: how-desafio-3.wait_for_step manual__2024-01-31T00:14:36.610858+00:00 [queued]>
+[2024-01-30T21:14:53.276-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: how-desafio-3.wait_for_step manual__2024-01-31T00:14:36.610858+00:00 [queued]>
+[2024-01-30T21:14:53.276-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-01-30T21:14:53.353-0300] {taskinstance.py:1382} INFO - Executing <Task(EmrStepSensor): wait_for_step> on 2024-01-31 00:14:36.610858+00:00
+[2024-01-30T21:14:53.357-0300] {standard_task_runner.py:57} INFO - Started process 215 to run task
+[2024-01-30T21:14:53.364-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'how-desafio-3', 'wait_for_step', 'manual__2024-01-31T00:14:36.610858+00:00', '--job-id', '318', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmp7w6sfvll']
+[2024-01-30T21:14:53.367-0300] {standard_task_runner.py:85} INFO - Job 318: Subtask wait_for_step
+[2024-01-30T21:14:53.471-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=manual__2024-01-31T00:14:36.610858+00:00/task_id=wait_for_step permission to 509
+[2024-01-30T21:14:53.474-0300] {task_command.py:416} INFO - Running <TaskInstance: how-desafio-3.wait_for_step manual__2024-01-31T00:14:36.610858+00:00 [running]> on host 14111-NB.
+[2024-01-30T21:14:53.716-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='how-desafio-3' AIRFLOW_CTX_TASK_ID='wait_for_step' AIRFLOW_CTX_EXECUTION_DATE='2024-01-31T00:14:36.610858+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-31T00:14:36.610858+00:00'
+[2024-01-30T21:14:53.733-0300] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2024-01-30T21:14:53.734-0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2024-01-30T21:14:53.979-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:14:55.368-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:15:55.389-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:15:56.757-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:16:56.818-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:16:58.124-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:17:58.186-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:17:59.278-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:18:59.339-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:19:00.532-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:20:00.593-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:20:01.853-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:21:01.914-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:21:03.263-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:22:03.299-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:22:04.511-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:23:04.537-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:23:05.945-0300] {emr.py:79} INFO - Job flow currently RUNNING
+[2024-01-30T21:24:05.959-0300] {emr.py:575} INFO - Poking step s-10351632175MY39MX1QA on cluster j-16YXVEW8HD5RH
+[2024-01-30T21:24:07.214-0300] {emr.py:79} INFO - Job flow currently COMPLETED
+[2024-01-30T21:24:07.215-0300] {base.py:287} INFO - Success criteria met. Exiting.
+[2024-01-30T21:24:07.232-0300] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=how-desafio-3, task_id=wait_for_step, execution_date=20240131T001436, start_date=20240131T001453, end_date=20240131T002407
+[2024-01-30T21:24:07.340-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-30T21:24:07.397-0300] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

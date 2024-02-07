@@ -31,19 +31,16 @@ dag = DAG('how-desafio-3',
           description='Extract, Load and transform data from OpenWeather API',
           start_date=days_ago(1),
           catchup=False,
-          schedule="*/15 * * * *"
+          schedule="*/60 * * * *"
         )
 
 start_operator = DummyOperator(task_id='Begin_execution',  dag=dag)
 
-now = datetime.now()
+now = datetime.now() - timedelta(minutes=60)
 
-def arredondar_para_15_minutos(dt):
-    minutos = (dt.minute // 15) * 15
-    segundos = (dt.second // 15) * 0
-    return dt.replace(minute=minutos, second=segundos, microsecond=0)
+rounded_hour = now.replace(minute=0, second=0, microsecond=0)
 
-timestamp_unix = int(arredondar_para_15_minutos(now).timestamp())
+timestamp_unix = int(rounded_hour.timestamp())
 
 invoke_lambda_function = LambdaInvokeFunctionOperator(
     task_id="invoke_lambda_function",
@@ -53,7 +50,7 @@ invoke_lambda_function = LambdaInvokeFunctionOperator(
 )
 
 JOB_FLOW_OVERRIDES = {
-    "Name": "Raw to trusted",
+    "Name": "Weather ETL",
     "ReleaseLabel": "emr-6.12.0",
     "Applications": [{"Name": "Hadoop"}, {"Name": "Spark"}], # We want our EMR cluster to have HDFS and Spark
     "BootstrapActions": [ 
@@ -113,7 +110,7 @@ create_emr_cluster = EmrCreateJobFlowOperator(
 SPARK_STEPS = [ # Note the params values are supplied to the operator
     {
         "Name": "Raw to trusted",
-        "ActionOnFailure": "CANCEL_AND_WAIT",
+        "ActionOnFailure": "TERMINATE_CLUSTER",
         "HadoopJarStep": {
             "Jar": "command-runner.jar",
             "Args": [
@@ -121,6 +118,19 @@ SPARK_STEPS = [ # Note the params values are supplied to the operator
                 "--deploy-mode",
                 "client",
                 "s3://how-desafio-3/spark/raw_to_trusted_script.py",
+            ],
+        },
+    },
+    {
+        "Name": "Trusted to business",
+        "ActionOnFailure": "TERMINATE_CLUSTER",
+        "HadoopJarStep": {
+            "Jar": "command-runner.jar",
+            "Args": [
+                "spark-submit",
+                "--deploy-mode",
+                "client",
+                "s3://how-desafio-3/spark/trusted_to_business_script.py",
             ],
         },
     }

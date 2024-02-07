@@ -1,0 +1,45 @@
+[2024-01-30T21:05:40.597-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=manual__2024-01-31T00:05:23.901160+00:00/task_id=wait_for_step permission to 509
+[2024-01-30T21:05:40.696-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=manual__2024-01-31T00:05:23.901160+00:00/task_id=wait_for_step permission to 509
+[2024-01-30T21:05:40.747-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: how-desafio-3.wait_for_step manual__2024-01-31T00:05:23.901160+00:00 [queued]>
+[2024-01-30T21:05:40.784-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: how-desafio-3.wait_for_step manual__2024-01-31T00:05:23.901160+00:00 [queued]>
+[2024-01-30T21:05:40.785-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-01-30T21:05:40.824-0300] {taskinstance.py:1382} INFO - Executing <Task(EmrStepSensor): wait_for_step> on 2024-01-31 00:05:23.901160+00:00
+[2024-01-30T21:05:40.825-0300] {standard_task_runner.py:57} INFO - Started process 202 to run task
+[2024-01-30T21:05:40.827-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'how-desafio-3', 'wait_for_step', 'manual__2024-01-31T00:05:23.901160+00:00', '--job-id', '314', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmpwc470zgv']
+[2024-01-30T21:05:40.829-0300] {standard_task_runner.py:85} INFO - Job 314: Subtask wait_for_step
+[2024-01-30T21:05:40.927-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=manual__2024-01-31T00:05:23.901160+00:00/task_id=wait_for_step permission to 509
+[2024-01-30T21:05:40.930-0300] {task_command.py:416} INFO - Running <TaskInstance: how-desafio-3.wait_for_step manual__2024-01-31T00:05:23.901160+00:00 [running]> on host 14111-NB.
+[2024-01-30T21:05:41.141-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='how-desafio-3' AIRFLOW_CTX_TASK_ID='wait_for_step' AIRFLOW_CTX_EXECUTION_DATE='2024-01-31T00:05:23.901160+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-31T00:05:23.901160+00:00'
+[2024-01-30T21:05:41.152-0300] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2024-01-30T21:05:41.153-0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2024-01-30T21:05:41.361-0300] {emr.py:575} INFO - Poking step s-0703210M5TMNUIBAIMS on cluster j-12DSH23HYT1G9
+[2024-01-30T21:05:42.448-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:06:42.510-0300] {emr.py:575} INFO - Poking step s-0703210M5TMNUIBAIMS on cluster j-12DSH23HYT1G9
+[2024-01-30T21:06:43.803-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:07:43.864-0300] {emr.py:575} INFO - Poking step s-0703210M5TMNUIBAIMS on cluster j-12DSH23HYT1G9
+[2024-01-30T21:07:45.080-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:08:45.141-0300] {emr.py:575} INFO - Poking step s-0703210M5TMNUIBAIMS on cluster j-12DSH23HYT1G9
+[2024-01-30T21:08:46.493-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:09:46.554-0300] {emr.py:575} INFO - Poking step s-0703210M5TMNUIBAIMS on cluster j-12DSH23HYT1G9
+[2024-01-30T21:09:47.820-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:10:47.882-0300] {emr.py:575} INFO - Poking step s-0703210M5TMNUIBAIMS on cluster j-12DSH23HYT1G9
+[2024-01-30T21:10:49.054-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:11:49.115-0300] {emr.py:575} INFO - Poking step s-0703210M5TMNUIBAIMS on cluster j-12DSH23HYT1G9
+[2024-01-30T21:11:50.296-0300] {emr.py:79} INFO - Job flow currently PENDING
+[2024-01-30T21:12:50.305-0300] {emr.py:575} INFO - Poking step s-0703210M5TMNUIBAIMS on cluster j-12DSH23HYT1G9
+[2024-01-30T21:12:51.729-0300] {emr.py:79} INFO - Job flow currently FAILED
+[2024-01-30T21:12:51.748-0300] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/amazon/aws/sensors/emr.py", line 624, in execute
+    super().execute(context=context)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/usr/local/lib/python3.10/dist-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/amazon/aws/sensors/emr.py", line 85, in poke
+    raise AirflowException(f"EMR job failed: {self.failure_message_from_response(response)}")
+airflow.exceptions.AirflowException: EMR job failed: for reason None with message pyspark.errors.exceptions.captured.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `list`.`dt` cannot be resolved. Did you mean one of the following? [`city`, `latitude`, `city_id`, `cod`, `longitude`].; and log file s3://how-desafio-3/logs/emr/j-12DSH23HYT1G9/steps/s-0703210M5TMNUIBAIMS/stdout.gz
+[2024-01-30T21:12:51.754-0300] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=how-desafio-3, task_id=wait_for_step, execution_date=20240131T000523, start_date=20240131T000540, end_date=20240131T001251
+[2024-01-30T21:12:51.810-0300] {standard_task_runner.py:104} ERROR - Failed to execute job 314 for task wait_for_step (EMR job failed: for reason None with message pyspark.errors.exceptions.captured.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `list`.`dt` cannot be resolved. Did you mean one of the following? [`city`, `latitude`, `city_id`, `cod`, `longitude`].; and log file s3://how-desafio-3/logs/emr/j-12DSH23HYT1G9/steps/s-0703210M5TMNUIBAIMS/stdout.gz; 202)
+[2024-01-30T21:12:51.835-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-01-30T21:12:51.870-0300] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
