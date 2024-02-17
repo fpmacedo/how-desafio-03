@@ -1,0 +1,19 @@
+[2024-02-17T18:02:28.280-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=scheduled__2024-02-17T20:00:00+00:00/task_id=add_steps permission to 509
+[2024-02-17T18:02:28.344-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=scheduled__2024-02-17T20:00:00+00:00/task_id=add_steps permission to 509
+[2024-02-17T18:02:28.369-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: how-desafio-3.add_steps scheduled__2024-02-17T20:00:00+00:00 [queued]>
+[2024-02-17T18:02:28.381-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: how-desafio-3.add_steps scheduled__2024-02-17T20:00:00+00:00 [queued]>
+[2024-02-17T18:02:28.382-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-02-17T18:02:28.462-0300] {taskinstance.py:1382} INFO - Executing <Task(EmrAddStepsOperator): add_steps> on 2024-02-17 20:00:00+00:00
+[2024-02-17T18:02:28.463-0300] {standard_task_runner.py:57} INFO - Started process 3171 to run task
+[2024-02-17T18:02:28.465-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'how-desafio-3', 'add_steps', 'scheduled__2024-02-17T20:00:00+00:00', '--job-id', '359', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmpa828vl1j']
+[2024-02-17T18:02:28.466-0300] {standard_task_runner.py:85} INFO - Job 359: Subtask add_steps
+[2024-02-17T18:02:28.552-0300] {logging_mixin.py:151} INFO - Changing /mnt/c/Users/filipe.macedo_ifood/Documents/how-desafio-03/airflow/logs/dag_id=how-desafio-3/run_id=scheduled__2024-02-17T20:00:00+00:00/task_id=add_steps permission to 509
+[2024-02-17T18:02:28.557-0300] {task_command.py:416} INFO - Running <TaskInstance: how-desafio-3.add_steps scheduled__2024-02-17T20:00:00+00:00 [running]> on host 14111-NB.
+[2024-02-17T18:02:28.692-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='how-desafio-3' AIRFLOW_CTX_TASK_ID='add_steps' AIRFLOW_CTX_EXECUTION_DATE='2024-02-17T20:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-17T20:00:00+00:00'
+[2024-02-17T18:02:28.730-0300] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2024-02-17T18:02:28.731-0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2024-02-17T18:02:29.787-0300] {emr.py:154} INFO - Adding steps to j-NIES5BWDJFSZ
+[2024-02-17T18:02:30.063-0300] {emr.py:171} INFO - Steps ['s-052757113OE6ZPPM8K13', 's-052814015H1OXS0OFILP'] added to JobFlow
+[2024-02-17T18:02:30.100-0300] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=how-desafio-3, task_id=add_steps, execution_date=20240217T200000, start_date=20240217T210228, end_date=20240217T210230
+[2024-02-17T18:02:30.167-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-02-17T18:02:30.207-0300] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

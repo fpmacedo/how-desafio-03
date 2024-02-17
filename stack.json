@@ -1,0 +1,144 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Parameters": {
+        "RawCrawlerName": {
+            "Type": "String",
+            "Default": "weather-data-raw"
+        },
+        "TrustedCrawlerName": {
+            "Type": "String",
+            "Default": "weather-data-trusted"
+        },
+        "BusinessCrawlerName": {
+            "Type": "String",
+            "Default": "weather-data-business"
+        },
+        "DatabaseName": {
+            "Type": "String",
+            "Default": "weather-database"
+        }
+    },
+    "Resources": {
+        "IAMRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "glue.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                },
+                "Path": "/",
+                "Policies": [
+                    {
+                        "PolicyName": "root",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Effect": "Allow",
+                                    "Action": "*",
+                                    "Resource": "*"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "Database": {
+            "Type": "AWS::Glue::Database",
+            "Properties": {
+                "CatalogId": {"Ref": "AWS::AccountId"},
+                "DatabaseInput": {
+                    "Name": {"Ref": "DatabaseName"},
+                    "Description": "AWS Glue container to hold metadata tables for the weather crawler"
+                }
+            }
+        },
+        "Classifier": {
+            "Type": "AWS::Glue::Classifier",
+            "Properties": {
+                "JsonClassifier": {
+                    "JsonPath": "$[*]",
+                    "Name": "json_classifier"
+                }
+            }
+        },
+        "RawCrawler": {
+            "Type": "AWS::Glue::Crawler",
+            "Properties": {
+                "Name": {"Ref": "RawCrawlerName"},
+                "Role": {"Fn::GetAtt" : [ "IAMRole", "Arn" ]},
+                "Description": "AWS Glue crawler to crawl weather data",
+                "Classifiers": [
+                    "json_classifier"
+                ],
+                "DatabaseName": {"Ref": "DatabaseName"},
+                "Targets": {
+                    "S3Targets": [
+                        {
+                            "Path": "s3://how-desafio-3/raw/"
+                        }
+                    ]
+                },
+                "SchemaChangePolicy": {
+                    "UpdateBehavior": "UPDATE_IN_DATABASE",
+                    "DeleteBehavior": "LOG"
+                }
+            }
+        },
+        "TrustedCrawler": {
+            "Type": "AWS::Glue::Crawler",
+            "Properties": {
+                "Name": {"Ref": "TrustedCrawlerName"},
+                "Role": {"Fn::GetAtt" : [ "IAMRole", "Arn" ]},
+                "Description": "AWS Glue crawler to crawl weather data",
+                "Classifiers": [
+                    "json_classifier"
+                ],
+                "DatabaseName": {"Ref": "DatabaseName"},
+                "Targets": {
+                    "S3Targets": [
+                        {
+                            "Path": "s3://how-desafio-3/trusted/weather"
+                        }
+                    ]
+                }
+            }
+        },
+        "BusinessCrawler": {
+            "Type": "AWS::Glue::Crawler",
+            "Properties": {
+                "Name": {"Ref": "BusinessCrawlerName"},
+                "Role": {"Fn::GetAtt" : [ "IAMRole", "Arn" ]},
+                "Description": "AWS Glue crawler to crawl weather data",
+                "Classifiers": [
+                    "json_classifier"
+                ],
+                "DatabaseName": {"Ref": "DatabaseName"},
+                "Targets": {
+                    "S3Targets": [
+                        {
+                            "Path": "s3://how-desafio-3/business/weather_business"
+                        }
+                    ]
+                },
+                "SchemaChangePolicy": {
+                    "UpdateBehavior": "LOG",
+                    "DeleteBehavior": "LOG"
+                }
+            }
+        }
+    }
+}

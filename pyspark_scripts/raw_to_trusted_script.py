@@ -82,10 +82,10 @@ def data_quality(input_dataset):
      
     logger.info(f"All validators passed with success!")
 
-def list_files(bucket):
+def list_files(bucket, prefix):
     files = []
     s3 = boto3.client('s3')
-    result = s3.list_objects(Bucket=bucket)
+    result = s3.list_objects(Bucket=bucket, Prefix=prefix)
     for obj in result['Contents']:
         files.append(obj['Key'])
     return files
@@ -131,7 +131,7 @@ def main():
     spark = create_spark_session()
     bucket = "how-desafio-3"
     
-    files = list_files(bucket)
+    files = list_files(bucket, 'raw/')
     recent_file = recent_date_files(files)
     input_data = f"s3://how-desafio-3/raw/{recent_file[0]}/{recent_file[1]}/{recent_file[2]}/*.json"
     print(input_data)
